@@ -13,5 +13,5 @@ import cucumber.api.junit.Cucumber;
         plugin = {"pretty", "html:target/cucumber-report", "json:target/cucumber.json"},
         tags = {"@search"},
         glue = "automation.guru")
-public class Runner {
+public class TestRunner {
 }

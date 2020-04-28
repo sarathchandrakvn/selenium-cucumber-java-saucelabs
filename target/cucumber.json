@@ -1,0 +1,178 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1608907495,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "User should be able to Navigate to Amazon com page and search for a product",
+        "description": "",
+        "id": "amazon-search-process;user-should-be-able-to-navigate-to-amazon-com-page-and-search-for-a-product;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 56645826,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1328587830,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am open Amazon Webpage",
+            "match": {
+              "location": "AmazonTest.navigateToAmazonWebPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 207257410,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I search for a \"watch\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "watch",
+                  "offset": 16
+                }
+              ],
+              "location": "AmazonTest.searchForaProduct(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31195,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should see results",
+            "match": {
+              "location": "AmazonTest.verifyResults()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@search"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1015153560,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "User should be able to Navigate to Amazon com page and search for a product",
+        "description": "",
+        "id": "amazon-search-process;user-should-be-able-to-navigate-to-amazon-com-page-and-search-for-a-product;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 56656981,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1403341609,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am open Amazon Webpage",
+            "match": {
+              "location": "AmazonTest.navigateToAmazonWebPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 367099462,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I search for a \"iphone\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "iphone",
+                  "offset": 16
+                }
+              ],
+              "location": "AmazonTest.searchForaProduct(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46086,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should see results",
+            "match": {
+              "location": "AmazonTest.verifyResults()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@search"
+          }
+        ]
+      }
+    ],
+    "name": "Amazon Search Process",
+    "description": "",
+    "id": "amazon-search-process",
+    "keyword": "Feature",
+    "uri": "amazon.feature"
+  }
+]

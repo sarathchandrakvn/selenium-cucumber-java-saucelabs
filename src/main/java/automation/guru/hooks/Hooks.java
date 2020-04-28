@@ -1,5 +1,6 @@
 package automation.guru.hooks;
 
+import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.WebDriver;
@@ -21,5 +22,11 @@ public class Hooks extends  Util{
         Capabilities chromeCapabilities = DesiredCapabilities.chrome();
          webDriver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),chromeCapabilities);
         Thread.sleep(100);
+     }
+
+     @After
+    public void tearDown()
+     {
+         webDriver.quit();
      }
 }

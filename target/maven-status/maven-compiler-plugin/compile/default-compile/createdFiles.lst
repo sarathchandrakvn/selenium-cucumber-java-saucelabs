@@ -1,2 +1,4 @@
 automation/guru/steps/AmazonTest.class
+automation/guru/hooks/Util.class
 automation/guru/hooks/Hooks.class
+automation/guru/steps/AmazonTest$1.class
