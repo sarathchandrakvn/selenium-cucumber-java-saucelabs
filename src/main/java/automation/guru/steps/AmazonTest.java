@@ -1,19 +1,26 @@
 package automation.guru.steps;
 
+import automation.guru.hooks.Hooks;
+import automation.guru.hooks.Util;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
+import org.openqa.selenium.WebDriver;
+
+import java.util.concurrent.TimeUnit;
 
 /**
  * @author sarathchandrakvn@gmail.com
  */
-public class AmazonTest {
+public class AmazonTest  extends Util {
 
 
     @Given("I am open Amazon Webpage$")
     public void navigateToAmazonWebPage()
     {
-        System.out.println("test");
+        webDriver.get("https://www.amazon.com");
+        webDriver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+
     }
 
 

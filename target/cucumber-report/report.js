@@ -66,7 +66,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 3979570882,
+  "duration": 2004775562,
   "status": "passed"
 });
 formatter.scenario({
@@ -105,7 +105,7 @@ formatter.match({
   "location": "AmazonTest.navigateToAmazonWebPage()"
 });
 formatter.result({
-  "duration": 3810985803,
+  "duration": 16246048425,
   "status": "passed"
 });
 formatter.match({
@@ -118,13 +118,13 @@ formatter.match({
   "location": "AmazonTest.searchForaProduct(String)"
 });
 formatter.result({
-  "duration": 2131648,
+  "duration": 3548055,
   "status": "passed"
 });
 formatter.match({
   "location": "AmazonTest.verifyResults()"
 });
 formatter.result({
-  "duration": 15334,
+  "duration": 13947,
   "status": "passed"
 });

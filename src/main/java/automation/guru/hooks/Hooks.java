@@ -13,15 +13,13 @@ import java.net.URL;
 /**
  * @author sarathchandrakvn@gmail.com
  */
-public class Hooks {
-
+public class Hooks extends  Util{
 
     @Before
     public void setup() throws MalformedURLException,InterruptedException
     {
         Capabilities chromeCapabilities = DesiredCapabilities.chrome();
-        WebDriver webdriver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),chromeCapabilities);
-        webdriver.get("https://www.google.com");
+         webDriver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),chromeCapabilities);
         Thread.sleep(100);
      }
 }
