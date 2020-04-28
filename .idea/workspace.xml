@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffb07840-62e1-4c5a-b54a-43d25698134a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-cucumber-java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-cucumber-java.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/automation/guru/hooks/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/automation/guru/hooks/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/automation/guru/steps/AmazonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/automation/guru/steps/AmazonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runner/Runner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/automation/guru/hooks/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/automation/guru/hooks/Hooks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/automation/guru/hooks/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/automation/guru/hooks/Util.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/automation/guru/steps/AmazonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/automation/guru/steps/AmazonTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-report/formatter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-report/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-report/jquery-1.8.2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-report/report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-report/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/selenium-cucumber-java-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/runner/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runner/Runner.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,13 +37,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="426" />
+          <entry key="java" value="475" />
           <entry key="xml" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="426" />
+          <entry key="JAVA" value="475" />
           <entry key="XML" value="13" />
         </counts>
       </usages-collector>
@@ -93,12 +73,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/automation/guru/hooks/Hooks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="297">
+              <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
               <folding>
+                <element signature="e#776#777#0" expanded="true" />
                 <element signature="e#810#811#0" expanded="true" />
               </folding>
             </state>
@@ -106,24 +87,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/selenium-cucumber-java.iml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1152">
-              <caret line="64" column="54" selection-start-line="64" selection-start-column="54" selection-end-line="64" selection-end-column="54" />
+            <state relative-caret-position="342">
+              <caret line="57" column="36" lean-forward="true" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/runner/TestRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="144">
+              <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -150,9 +126,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/automation/guru/hooks/Util.java" />
         <option value="$PROJECT_DIR$/src/main/java/automation/guru/steps/AmazonTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/automation/guru/hooks/Hooks.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/automation/guru/hooks/Hooks.java" />
       </list>
     </option>
   </component>
@@ -263,7 +239,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588060036757" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588060426187" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -332,9 +308,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Runner - 2020.04.28 at 00h 03m 17s.xml">
-      <configuration name="Runner" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Runner - 2020.04.28 at 00h 09m 41s.xml">
       <configuration name="Runner" configurationId="JUnit" />
     </history-entry>
@@ -362,6 +335,9 @@
     <history-entry file="Runner - 2020.04.28 at 00h 36m 08s.xml">
       <configuration name="Runner" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestRunner - 2020.04.28 at 00h 47m 05s.xml">
+      <configuration name="TestRunner" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="60" y="89" width="1680" height="960" extended-state="0" />
@@ -372,10 +348,10 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.46153846" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.46153846" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.3289941" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -403,7 +379,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/automation/guru/hooks/Hooks.java</url>
-          <line>29</line>
+          <line>41</line>
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
@@ -436,20 +412,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/automation/guru/hooks/Hooks.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/runner/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="e#810#811#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="144">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/selenium-cucumber-java.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/runner/Runner.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/runner/TestRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
@@ -458,15 +431,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1152">
-          <caret line="64" column="54" selection-start-line="64" selection-start-column="54" selection-end-line="64" selection-end-column="54" />
+        <state relative-caret-position="342">
+          <caret line="57" column="36" lean-forward="true" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/runner/TestRunner.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/automation/guru/hooks/Hooks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="297">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+          <folding>
+            <element signature="e#776#777#0" expanded="true" />
+            <element signature="e#810#811#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

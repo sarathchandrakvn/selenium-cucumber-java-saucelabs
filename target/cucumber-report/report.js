@@ -66,7 +66,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 1608907495,
+  "duration": 6891986546,
   "status": "passed"
 });
 formatter.scenario({
@@ -105,7 +105,7 @@ formatter.match({
   "location": "AmazonTest.navigateToAmazonWebPage()"
 });
 formatter.result({
-  "duration": 1328587830,
+  "duration": 3098157253,
   "status": "passed"
 });
 formatter.match({
@@ -118,22 +118,22 @@ formatter.match({
   "location": "AmazonTest.searchForaProduct(String)"
 });
 formatter.result({
-  "duration": 207257410,
+  "duration": 897029266,
   "status": "passed"
 });
 formatter.match({
   "location": "AmazonTest.verifyResults()"
 });
 formatter.result({
-  "duration": 31195,
+  "duration": 23714,
   "status": "passed"
 });
 formatter.after({
-  "duration": 56645826,
+  "duration": 403103432,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1015153560,
+  "duration": 5805198054,
   "status": "passed"
 });
 formatter.scenario({
@@ -172,7 +172,7 @@ formatter.match({
   "location": "AmazonTest.navigateToAmazonWebPage()"
 });
 formatter.result({
-  "duration": 1403341609,
+  "duration": 2634232559,
   "status": "passed"
 });
 formatter.match({
@@ -185,18 +185,18 @@ formatter.match({
   "location": "AmazonTest.searchForaProduct(String)"
 });
 formatter.result({
-  "duration": 367099462,
+  "duration": 1140019329,
   "status": "passed"
 });
 formatter.match({
   "location": "AmazonTest.verifyResults()"
 });
 formatter.result({
-  "duration": 46086,
+  "duration": 20021,
   "status": "passed"
 });
 formatter.after({
-  "duration": 56656981,
+  "duration": 242053749,
   "status": "passed"
 });
 });
