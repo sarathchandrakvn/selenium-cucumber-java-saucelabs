@@ -1,21 +1,17 @@
 package automation.guru.steps;
 
-import automation.guru.hooks.Hooks;
 import automation.guru.hooks.Util;
 import com.google.common.base.Function;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Wait;
-
-import java.io.IOException;
-import java.sql.Time;
 import java.util.NoSuchElementException;
-import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -23,18 +19,17 @@ import java.util.concurrent.TimeUnit;
  */
 public class AmazonTest  extends Util {
 
-
     boolean isMobile ;
+    private static Logger logger;
 
     @Given("I am open Amazon Webpage$")
-    public void navigateToAmazonWebPage() throws IOException
+    public void navigateToAmazonWebPage()
     {
-
-        System.out.println("webdriver.mobile = " + System.getProperty("webdriver.mobile"));
+        logger = Logger.getLogger(AmazonTest.class);
+        isMobile = Boolean.parseBoolean(System.getProperty("webdriver.mobile"));
         webDriver.get("https://www.amazon.com");
         webDriver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
-        isMobile = Boolean.TRUE;
-    }
+     }
 
 
     @And("I search for a \"([^\"]*)\"$")
