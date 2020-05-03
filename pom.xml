@@ -10,7 +10,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <caps>safariosx</caps>
+        <caps>iphonexs</caps>
      </properties>
 
     <dependencies>

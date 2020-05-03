@@ -47,14 +47,29 @@ public class Hooks extends  Util{
         else  if (System.getProperty("webdriver.browser").equalsIgnoreCase("safari"))
         {
             MutableCapabilities sauceOptions = new MutableCapabilities();
-
             SafariOptions browserOptions = new SafariOptions();
-            browserOptions.setCapability("platformName", "macOS 10.15");
-            browserOptions.setCapability("browserVersion", "13.0");
+            browserOptions.setCapability("platformName", System.getProperty("webdriver.cap.platformName"));
+            browserOptions.setCapability("browserVersion", System.getProperty("webdriver.cap.browserVersion"));
             browserOptions.setCapability("sauce:options", sauceOptions);
             final String URL = System.getProperty("webdriver.url");
             webDriver = new RemoteWebDriver(new URL(URL),browserOptions);
         }
+
+        else  if (System.getProperty("webdriver.browser").equalsIgnoreCase("iphonexs"))
+        {
+            DesiredCapabilities caps = DesiredCapabilities.iphone();
+            caps.setCapability("appiumVersion", System.getProperty("webdriver.appiumVersion"));
+            caps.setCapability("deviceName",System.getProperty("webdriver.deviceName"));
+            caps.setCapability("deviceOrientation", System.getProperty("webdriver.deviceOrientation"));
+            caps.setCapability("platformVersion",System.getProperty("webdriver.platformVersion"));
+            caps.setCapability("platformName", System.getProperty("webdriver.cap.platformName"));
+            caps.setCapability("browserName", System.getProperty("webdriver.browserName"));
+            final String URL = System.getProperty("webdriver.url");
+            webDriver = new RemoteWebDriver(new URL(URL),caps);
+
+        }
+
+
 
 /*
         DesiredCapabilities caps = DesiredCapabilities.iphone();
