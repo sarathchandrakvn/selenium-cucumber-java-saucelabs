@@ -5,8 +5,8 @@ import com.google.common.base.Function;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
-import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.FluentWait;
@@ -20,12 +20,10 @@ import java.util.concurrent.TimeUnit;
 public class AmazonTest  extends Util {
 
     boolean isMobile ;
-    private static Logger logger;
 
     @Given("I am open Amazon Webpage$")
     public void navigateToAmazonWebPage()
     {
-        logger = Logger.getLogger(AmazonTest.class);
         isMobile = Boolean.parseBoolean(System.getProperty("webdriver.mobile"));
         webDriver.get("https://www.amazon.com");
         webDriver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
@@ -35,14 +33,16 @@ public class AmazonTest  extends Util {
     @And("I search for a \"([^\"]*)\"$")
     public void searchForaProduct(String product)
     {
-        if(isMobile)
-            waitForElement("//*[@id='nav-search-keywords']");
-        else
-            waitForElement("//*[@id='twotabsearchtextbox']");
 
-            String xpath = (isMobile == Boolean.TRUE) ? "//*[@id='nav-search-keywords']" : "//*[@id='twotabsearchtextbox']";
-            waitForElement(xpath);
-            webDriver.findElement(By.xpath(xpath)).sendKeys(product);
+         try {
+             waitForElement("//*[@id='twotabsearchtextbox']");
+             webDriver.findElement(By.xpath("//*[@id='twotabsearchtextbox']")).sendKeys(product);
+         }
+         catch(Exception ex)
+         {
+             waitForElement("//*[@id='nav-search-keywords']");
+             webDriver.findElement(By.xpath("//*[@id='nav-search-keywords']")).sendKeys(product);
+         }
     }
 
     private void waitForElement(final String xpath)
@@ -59,15 +59,14 @@ public class AmazonTest  extends Util {
         });
     }
 
-
     @Then("I should see results$")
-    public void verifyResults() throws InterruptedException
+    public void verifyResults()
     {
-        String xpath = (isMobile == Boolean.TRUE) ? "//*[@id=nav-search-form]/div[2]/div/input" : "//*[@id='nav-search']/form/div[2]/div/input";
+        String xpath = (isMobile == Boolean.TRUE) ? "//*[@id='nav-search-form']/div[2]/div/input" : "//*[@id='nav-search']/form/div[2]/div/input";
         waitForElement(xpath);
-        webDriver.findElement(By.xpath(xpath)).click();
+        webDriver.findElement(By.xpath(xpath)).sendKeys(Keys.RETURN);
         webDriver.manage().timeouts().pageLoadTimeout(20,TimeUnit.SECONDS);
-        Thread.sleep(10);
-     }
+
+    }
 
 }

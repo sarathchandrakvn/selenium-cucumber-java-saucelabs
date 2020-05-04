@@ -1,8 +1,10 @@
 package automation.guru.hooks;
 
+import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import org.openqa.selenium.Capabilities;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.MutableCapabilities;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -21,66 +23,74 @@ import java.util.Arrays;
 /**
  * @author sarathchandrakvn@gmail.com
  */
-public class Hooks extends  Util{
+public class Hooks extends Util{
 
-    String log4jConfigPath = System.getProperty("user.dir") + "/src/main/config/common/log4j.properties";
 
     @Before
-    public void setup() throws MalformedURLException
-    {
+    public void setup(Scenario scenario) throws MalformedURLException {
+         String gridLocation = System.getProperty("webdriver.url");
 
-        /*Capabilities chromeCapabilities = DesiredCapabilities.chrome();
-         webDriver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),chromeCapabilities);*/
 
-        if (System.getProperty("webdriver.browser").equalsIgnoreCase("chrome"))
-        {
+        if (System.getProperty("webdriver.browser").equalsIgnoreCase("localchrome")) {
+            Capabilities chromeCapabilities = DesiredCapabilities.chrome();
+            webDriver = new RemoteWebDriver(new URL(System.getProperty("webdriver.url")), chromeCapabilities);
+        }
+
+
+        if (gridLocation != null && gridLocation.contains("saucelabs")) {
+            String featureName = scenario.getId().split(";")[0];
+
+
+            if (System.getProperty("webdriver.browser").equalsIgnoreCase("chrome")) {
                 MutableCapabilities sauceOptions = new MutableCapabilities();
                 ChromeOptions browserOptions = new ChromeOptions();
                 browserOptions.setExperimentalOption("w3c", System.getProperty("webdriver.w3c"));
                 browserOptions.setCapability("platformName", System.getProperty("webdriver.cap.platformName"));
                 browserOptions.setCapability("browserVersion", System.getProperty("webdriver.cap.browserVersion"));
+                browserOptions.setCapability("build", featureName + "  " + System.currentTimeMillis());
+                browserOptions.setCapability("name", scenario.getName());
                 browserOptions.setCapability("sauce:options", sauceOptions);
                 final String URL = System.getProperty("webdriver.url");
-                webDriver = new RemoteWebDriver(new URL(URL),browserOptions);
+                webDriver = new RemoteWebDriver(new URL(URL), browserOptions);
+
+            } else if (System.getProperty("webdriver.browser").equalsIgnoreCase("safari")) {
+                MutableCapabilities sauceOptions = new MutableCapabilities();
+                SafariOptions browserOptions = new SafariOptions();
+                browserOptions.setCapability("platformName", System.getProperty("webdriver.cap.platformName"));
+                browserOptions.setCapability("browserVersion", System.getProperty("webdriver.cap.browserVersion"));
+                browserOptions.setCapability("build", featureName + "  " + System.currentTimeMillis());
+                browserOptions.setCapability("name", scenario.getName());
+                browserOptions.setCapability("sauce:options", sauceOptions);
+                final String URL = System.getProperty("webdriver.url");
+                webDriver = new RemoteWebDriver(new URL(URL), browserOptions);
+
+            } else if (System.getProperty("webdriver.browser").equalsIgnoreCase("iphonexs")) {
+                DesiredCapabilities caps = DesiredCapabilities.iphone();
+                caps.setCapability("appiumVersion", System.getProperty("webdriver.appiumVersion"));
+                caps.setCapability("deviceName", System.getProperty("webdriver.deviceName"));
+                caps.setCapability("deviceOrientation", System.getProperty("webdriver.deviceOrientation"));
+                caps.setCapability("platformVersion", System.getProperty("webdriver.platformVersion"));
+                caps.setCapability("platformName", System.getProperty("webdriver.cap.platformName"));
+                caps.setCapability("browserName", System.getProperty("webdriver.browserName"));
+                caps.setCapability("build", featureName + "  " + System.currentTimeMillis());
+                caps.setCapability("name", scenario.getName());
+                final String URL = System.getProperty("webdriver.url");
+                webDriver = new RemoteWebDriver(new URL(URL), caps);
+
+            } else if (System.getProperty("webdriver.browser").equalsIgnoreCase("samsung")) {
+                DesiredCapabilities caps = DesiredCapabilities.iphone();
+                caps.setCapability("appiumVersion", System.getProperty("webdriver.appiumVersion"));
+                caps.setCapability("deviceName", System.getProperty("webdriver.deviceName"));
+                caps.setCapability("deviceOrientation", System.getProperty("webdriver.deviceOrientation"));
+                caps.setCapability("platformVersion", System.getProperty("webdriver.platformVersion"));
+                caps.setCapability("platformName", System.getProperty("webdriver.cap.platformName"));
+                caps.setCapability("browserName", System.getProperty("webdriver.browserName"));
+                caps.setCapability("build", featureName + "  " + System.currentTimeMillis());
+                caps.setCapability("name", scenario.getName());
+                final String URL = System.getProperty("webdriver.url");
+                webDriver = new RemoteWebDriver(new URL(URL), caps);
+            }
         }
-
-        else  if (System.getProperty("webdriver.browser").equalsIgnoreCase("safari"))
-        {
-            MutableCapabilities sauceOptions = new MutableCapabilities();
-            SafariOptions browserOptions = new SafariOptions();
-            browserOptions.setCapability("platformName", System.getProperty("webdriver.cap.platformName"));
-            browserOptions.setCapability("browserVersion", System.getProperty("webdriver.cap.browserVersion"));
-            browserOptions.setCapability("sauce:options", sauceOptions);
-            final String URL = System.getProperty("webdriver.url");
-            webDriver = new RemoteWebDriver(new URL(URL),browserOptions);
-        }
-
-        else  if (System.getProperty("webdriver.browser").equalsIgnoreCase("iphonexs"))
-        {
-            DesiredCapabilities caps = DesiredCapabilities.iphone();
-            caps.setCapability("appiumVersion", System.getProperty("webdriver.appiumVersion"));
-            caps.setCapability("deviceName",System.getProperty("webdriver.deviceName"));
-            caps.setCapability("deviceOrientation", System.getProperty("webdriver.deviceOrientation"));
-            caps.setCapability("platformVersion",System.getProperty("webdriver.platformVersion"));
-            caps.setCapability("platformName", System.getProperty("webdriver.cap.platformName"));
-            caps.setCapability("browserName", System.getProperty("webdriver.browserName"));
-            final String URL = System.getProperty("webdriver.url");
-            webDriver = new RemoteWebDriver(new URL(URL),caps);
-
-        }
-
-
-
-/*
-        DesiredCapabilities caps = DesiredCapabilities.iphone();
-        caps.setCapability("appiumVersion", "1.16.0");
-        caps.setCapability("deviceName","iPhone X Simulator");
-        caps.setCapability("deviceOrientation", "portrait");
-        caps.setCapability("platformVersion","13.2");
-        caps.setCapability("platformName", "iOS");
-        caps.setCapability("browserName", "Safari");
-        final String URL = "https://sarathkvn:27aae687-cf2f-4e86-90a7-1c7fd21bd0e1@ondemand.saucelabs.com:443/wd/hub";
-        webDriver = new RemoteWebDriver(new URL(URL),caps);*/
     }
 
      @After

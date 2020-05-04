@@ -10,15 +10,10 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <caps>iphonexs</caps>
+        <caps>samsunggalaxys9</caps>
      </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>log4j</groupId>
-            <artifactId>log4j</artifactId>
-            <version>1.2.17</version>
-        </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
@@ -79,8 +74,6 @@
                 <version>2.22.2</version>
                 <configuration>
                          <systemPropertiesFile>src/main/config/cbt/${caps}.properties</systemPropertiesFile>
-                    <source>1.8</source>
-                    <target>1.8</target>
                  </configuration>
             </plugin>
         </plugins>

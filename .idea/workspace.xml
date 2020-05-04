@@ -2,11 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffb07840-62e1-4c5a-b54a-43d25698134a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/config/cbt/chromewindows.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/config/cbt/chromewindows.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-cucumber-java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-cucumber-java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/config/cbt/iphonexs.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/config/cbt/iphonexs.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/config/cbt/safariosx.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/config/cbt/safariosx.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/config/common/log4j.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/automation/guru/hooks/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/automation/guru/hooks/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/automation/guru/steps/AmazonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/automation/guru/steps/AmazonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/automation/guru/hooks/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/automation/guru/hooks/Hooks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/automation/guru/steps/AmazonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/automation/guru/steps/AmazonTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/iphonexs.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/iphonexs.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/safariosx.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/safariosx.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-report/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-report/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,45 +29,48 @@
     <session id="-445881123">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.43" value="1" />
           <entry key="project.open.time.6" value="2" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="feature" value="1" />
+          <entry key="feature" value="2" />
           <entry key="iml" value="1" />
-          <entry key="java" value="13" />
-          <entry key="properties" value="11" />
-          <entry key="xml" value="2" />
+          <entry key="java" value="18" />
+          <entry key="log" value="1" />
+          <entry key="properties" value="27" />
+          <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="Cucumber" value="1" />
+          <entry key="Cucumber" value="2" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="13" />
-          <entry key="Properties" value="11" />
-          <entry key="XML" value="2" />
+          <entry key="JAVA" value="18" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Properties" value="27" />
+          <entry key="XML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1259" />
-          <entry key="properties" value="263" />
-          <entry key="xml" value="228" />
+          <entry key="java" value="1492" />
+          <entry key="properties" value="354" />
+          <entry key="xml" value="331" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1259" />
-          <entry key="Properties" value="263" />
-          <entry key="XML" value="228" />
+          <entry key="JAVA" value="1492" />
+          <entry key="Properties" value="354" />
+          <entry key="XML" value="331" />
         </counts>
       </usages-collector>
     </session>
@@ -65,23 +78,49 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/features/amazon.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/config/cbt/samsunggalaxys9.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="18" selection-start-column="18" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/config/cbt/safariosx.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/automation/guru/hooks/Hooks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="65" column="87" selection-start-line="65" selection-start-column="87" selection-end-line="65" selection-end-column="87" />
+            <state relative-caret-position="366">
+              <caret line="87" column="16" selection-start-line="87" selection-start-column="16" selection-end-line="88" selection-end-column="63" />
               <folding>
-                <element signature="e#2324#2325#0" expanded="true" />
-                <element signature="e#2358#2359#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/config/cbt/iphonexs.properties">
+        <entry file="file://$PROJECT_DIR$/src/test/java/runner/TestRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="21" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="21" />
+            <state relative-caret-position="270">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -89,8 +128,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="252">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -126,11 +165,17 @@
       <find>fa</find>
       <find>Kaise</find>
       <find>profile</find>
-      <find>log</find>
       <find>iphonexs</find>
       <find>System.getProperty(&quot;webdriver.cap.platformName&quot;)</find>
       <find>platformName</find>
+      <find>//*[@id='nav-search-form']/div[2]/div/input</find>
+      <find>iphonex</find>
+      <find>build&quot;, featureName</find>
+      <find>log</find>
     </findStrings>
+    <replaceStrings>
+      <replace>build&quot;, featureName + System.currentTimeMillis()</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -140,13 +185,16 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/automation/guru/hooks/Util.java" />
         <option value="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" />
-        <option value="$PROJECT_DIR$/src/main/java/automation/guru/steps/AmazonTest.java" />
         <option value="$PROJECT_DIR$/src/main/config/cbt/chrome.properties" />
         <option value="$PROJECT_DIR$/src/main/config/common/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/config/cbt/chromewindows.properties" />
         <option value="$PROJECT_DIR$/src/main/config/cbt/iphonexs.properties" />
         <option value="$PROJECT_DIR$/src/main/config/cbt/safariosx.properties" />
+        <option value="$PROJECT_DIR$/src/main/config/cbt/samsunggalaxys9.properties" />
+        <option value="$PROJECT_DIR$/src/main/features/amazon.feature" />
+        <option value="$PROJECT_DIR$/src/main/config/cbt/localchrome.properties" />
         <option value="$PROJECT_DIR$/src/main/java/automation/guru/hooks/Hooks.java" />
+        <option value="$PROJECT_DIR$/src/main/java/automation/guru/steps/AmazonTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
@@ -159,10 +207,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="234" />
-    <option name="y" value="28" />
-    <option name="width" value="1680" />
-    <option name="height" value="960" />
+    <option name="x" value="97" />
+    <option name="y" value="148" />
+    <option name="width" value="1881" />
+    <option name="height" value="1177" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -172,7 +220,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -212,8 +259,7 @@
               <item name="selenium-cucumber-java-saucelabs" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="selenium-cucumber-java" type="b2602c69:ProjectViewProjectNode" />
@@ -239,26 +285,57 @@
               <item name="guru" type="462c0819:PsiDirectoryNode" />
               <item name="hooks" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="selenium-cucumber-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium-cucumber-java-saucelabs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="guru" type="462c0819:PsiDirectoryNode" />
+              <item name="steps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="selenium-cucumber-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium-cucumber-java-saucelabs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="selenium-cucumber-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium-cucumber-java-saucelabs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="selenium-cucumber-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium-cucumber-java-saucelabs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="runner" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588495905019" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588574385779" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/config/saucelabs" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/config/cbt" />
       <recent name="$PROJECT_DIR$/src/main/config" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/config/saucelabs" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -327,34 +404,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestRunner - 2020.05.03 at 01h 15m 50s.xml">
+    <history-entry file="TestRunner - 2020.05.03 at 16h 31m 49s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner - 2020.05.03 at 01h 19m 16s.xml">
+    <history-entry file="TestRunner - 2020.05.03 at 16h 39m 06s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner - 2020.05.03 at 01h 23m 32s.xml">
+    <history-entry file="TestRunner - 2020.05.03 at 16h 42m 47s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner - 2020.05.03 at 01h 36m 37s.xml">
+    <history-entry file="TestRunner - 2020.05.03 at 16h 52m 01s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner - 2020.05.03 at 01h 37m 15s.xml">
+    <history-entry file="TestRunner - 2020.05.03 at 16h 57m 47s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner - 2020.05.03 at 01h 41m 49s.xml">
+    <history-entry file="TestRunner - 2020.05.03 at 17h 01m 05s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner - 2020.05.03 at 01h 47m 16s.xml">
+    <history-entry file="TestRunner - 2020.05.03 at 17h 18m 04s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner - 2020.05.03 at 01h 48m 26s.xml">
+    <history-entry file="TestRunner - 2020.05.03 at 17h 21m 51s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner - 2020.05.03 at 01h 49m 29s.xml">
+    <history-entry file="TestRunner - 2020.05.03 at 17h 23m 54s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner - 2020.05.03 at 01h 50m 20s.xml">
+    <history-entry file="TestRunner - 2020.05.03 at 23h 30m 40s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -368,10 +445,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="224" y="42" width="1680" height="960" extended-state="0" />
+    <frame x="39" y="23" width="1881" height="1177" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21245421" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19140838" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -380,15 +457,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.46627218" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4414201" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993895" visible="true" weight="0.5188324" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4934911" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289941" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.44733727" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50061053" side_tool="true" weight="0.5112426" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3289941" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32862523" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -406,34 +483,10 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/automation/guru/hooks/Hooks.java</url>
-          <line>88</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/automation/guru/steps/AmazonTest.java</url>
-          <line>40</line>
+          <line>36</line>
           <properties />
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/automation/guru/steps/AmazonTest.java</url>
-          <line>38</line>
-          <properties />
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/automation/guru/steps/AmazonTest.java</url>
-          <line>37</line>
-          <properties />
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/automation/guru/steps/AmazonTest.java</url>
-          <line>29</line>
-          <properties />
-          <option name="timeStamp" value="21" />
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -459,46 +512,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/config/local/chrome.properties" />
     <entry file="file://$PROJECT_DIR$/src/main/config/saucelabs/chrome.properties" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/runner/TestRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/features/amazon.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/config/cbt/local.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/config/cbt/chrome.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/automation/guru/steps/AmazonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2056#2235#0" expanded="true" />
-            <element signature="e#2234#2235#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/config/cbt/local.properties" />
+    <entry file="file://$PROJECT_DIR$/src/main/config/cbt/chrome.properties" />
     <entry file="file://$PROJECT_DIR$/src/main/config/common/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -506,42 +521,82 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/automation/guru/steps/AmazonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/config/cbt/chromewindows.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="54">
+          <caret line="3" column="37" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/config/cbt/iphonexs.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/config/cbt/localchrome.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logging.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/runner/TestRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/automation/guru/hooks/Hooks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="87" column="16" selection-start-line="87" selection-start-column="16" selection-end-line="88" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/config/cbt/safariosx.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
-          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/config/cbt/iphonexs.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/features/amazon.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="21" />
+        <state relative-caret-position="234">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/automation/guru/hooks/Hooks.java">
+    <entry file="file://$PROJECT_DIR$/src/main/config/cbt/samsunggalaxys9.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="65" column="87" selection-start-line="65" selection-start-column="87" selection-end-line="65" selection-end-column="87" />
-          <folding>
-            <element signature="e#2324#2325#0" expanded="true" />
-            <element signature="e#2358#2359#0" expanded="true" />
-          </folding>
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="252">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
