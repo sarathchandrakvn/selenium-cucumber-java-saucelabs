@@ -96,6 +96,7 @@ public class Hooks extends Util{
         // let isToken()
         // signOnWithToken()
         // removeCookiesAfterLogOut()
+        // Add some more code
     }
 
      @After
