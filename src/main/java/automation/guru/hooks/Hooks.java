@@ -93,6 +93,9 @@ public class Hooks extends Util{
         }
         // Test commit
         // code fixes
+        // let isToken()
+        // signOnWithToken()
+        // removeCookiesAfterLogOut()
     }
 
      @After
